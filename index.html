@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vintage UI</title>
+  <link rel="stylesheet" href="./vintage.ui.css" />
+</head>
+<body>
+  <main class="container">
+    <header class="hero">
+      <div>
+        <h1>Vintage UI</h1>
+        <p class="subtitle">Classic tones, paper texture, and soft depth.</p>
+      </div>
+      <span class="badge">Edition · 1926</span>
+    </header>
+
+    <section class="layout">
+      <article class="card stack">
+        <h2>Compose Notice</h2>
+        <div>
+          <label class="label" for="title">Title</label>
+          <input class="input" id="title" type="text" placeholder="Town Hall Bulletin" />
+        </div>
+        <div>
+          <label class="label" for="tone">Tone</label>
+          <select class="select" id="tone">
+            <option>Formal</option>
+            <option>Warm</option>
+            <option>Concise</option>
+          </select>
+        </div>
+        <div>
+          <label class="label" for="message">Message</label>
+          <textarea class="textarea" id="message" placeholder="Write your vintage-style announcement..."></textarea>
+        </div>
+        <div class="row">
+          <button class="button" type="button">Publish</button>
+          <button class="button secondary" type="button">Save Draft</button>
+        </div>
+      </article>
+
+      <aside class="card stack">
+        <h2>Recent Notes</h2>
+        <ul class="list">
+          <li>Library reopening at dawn.</li>
+          <li>Market square banners restored.</li>
+          <li>Evening orchestra this Friday.</li>
+        </ul>
+      </aside>
+    </section>
+  </main>
+</body>
+</html>
